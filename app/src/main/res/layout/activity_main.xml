@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context="ng.riby.androidtest.MainActivity">
 
+
     <Button
+        android:id="@+id/start_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -15,4 +17,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/show_location_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="show history"
+        app:layout_constraintEnd_toEndOf="@+id/start_button"
+        app:layout_constraintStart_toStartOf="@+id/start_button"
+        app:layout_constraintTop_toBottomOf="@+id/start_button" />
 </android.support.constraint.ConstraintLayout>
